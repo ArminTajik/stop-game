@@ -1,0 +1,130 @@
+# ===================================================
+# OS / Editor / IDE
+# ===================================================
+.DS_Store
+Thumbs.db
+*~
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+.vsconfig
+
+# ===================================================
+# Project-generated folders
+# ===================================================
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+LocalBuilds/
+
+# ===================================================
+# Plugins generated folders
+# ===================================================
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# ===================================================
+# Engine generated folders and intermediates
+# ===================================================
+Engine/Build/Receipts/
+Engine/Intermediate/
+Engine/DerivedDataCache/
+Engine/Binaries/**/*.version
+Engine/Binaries/**/*.exp
+Engine/Binaries/DotNET/UnrealBuildTool.xml
+Engine/Binaries/DotNET/AutomationScripts/BuildGraph.Automation.xml
+Engine/Programs/*/Intermediate/
+Engine/Programs/*/Saved/
+Engine/Source/Programs/*/obj/
+
+# ===================================================
+# Build Artifacts (Generic)
+# ===================================================
+*.obj
+*.o
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+*.app
+*.ipa
+*.out
+*.pdb
+*.sym
+*.debug
+*.exe.config
+*.exe.manifest
+*.target.xml
+
+# ===================================================
+# Unreal Engine auto-generated project files
+# ===================================================
+*.sln
+*.sdf
+*.opensdf
+*.vcxproj
+*.vcxproj.*
+*.csproj.*
+*.tmp
+*.mdb
+*.userprefs
+*.code-workspace
+*.csprojAssemblyReference.cache
+
+# ===================================================
+# Crash & log artifacts
+# ===================================================
+crashinfo--*
+
+# ===================================================
+# Swarm Agent settings
+# ===================================================
+Engine/Binaries/DotNET/SwarmAgent.DeveloperOptions.xml
+Engine/Binaries/DotNET/SwarmAgent.Options.xml
+
+# ===================================================
+# Obj-C / Apple specific
+# ===================================================
+*.dSYM
+*.dSYM.zip
+*.xcworkspace
+*.xcodeproj
+*.hmap
+
+# ===================================================
+# Qt / Linux IDEs
+# ===================================================
+*.pro
+*.pri
+*.kdev4
+
+# ===================================================
+# Unreal Engine Assets / Engine Artifacts
+# ===================================================
+*_BuiltData.uasset
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# ===================================================
+# Perforce Personal Config
+# ===================================================
+p4config.txt
+.p4config
+
+# ===================================================
+# Git metadata
+# ===================================================
+.git/
+.gitignore
+.gitattributes
+.gitmodules
